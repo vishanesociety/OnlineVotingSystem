@@ -1,0 +1,74 @@
+h2
+{
+text-align:center;
+}
+button{
+margin-left:25px;
+}
+
+label{
+margin-left:20px;
+}
+
+form {margin-top:-20px;
+border: 3px solid #f1f1f1;
+margin-left:450;
+margin-right:450;
+}
+
+input[type=submit]{
+font-family:verdana;
+color:white;
+font-size:20;
+border:none;
+background-color:009933;
+margin: 5px 0;
+width:300px;
+height:60px;
+text-align:center;
+}
+
+input[type=text], input[type=password]{
+height:30px;
+width:200px;
+margin: 8px 0;
+display: inline-block;
+border: 1px solid #ccc;
+}
+
+button {
+background-color: #4CAF50;
+color: white;
+padding: 14px 20px;
+margin: 8px 0;
+border: none;
+cursor: pointer;
+width: 100%;
+}
+
+.imgcontainer{
+text-align: center;
+margin: 24px 0 12px 0;
+}
+
+img.avatar {
+width: 40%;    
+border-radius: 50%;
+}
+
+.container{    
+padding: 16px;
+}
+
+span.psw {
+float: right;
+padding-top: 5px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+span.psw {   
+display: block;
+float: none;
+}
+  

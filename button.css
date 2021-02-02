@@ -1,0 +1,22 @@
+.button{
+background: #0066A2;
+color: white;
+border-style: outset;
+border-color: #0066A2;
+height: 30px;
+width: 90px;
+font: bold 15px arial, sans-serif;
+}
+.button:hover {
+background: #016ABC;
+color: #fff;
+border: 1px solid #eee;
+border-radius: 15px;
+}
+
+.button:active {
+  background-color: #0066A2;
+  box-shadow: 0 5px #666;
+  transform: translateY(2px);
+}
+

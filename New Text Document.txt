@@ -1,0 +1,11 @@
+<html>
+<body>
+<fieldset style="width:30%;"> <legend>Login</legend>
+<form action="loginverify.php" method="post">
+Username:<input type="text" name="txtuser" required autofocus/><br/>
+Password:<input type="text" name="txtpassword" required/> 
+<input type="submit" value="SUBMIT"/>
+</form>
+</fieldset>
+</body>
+</html>
